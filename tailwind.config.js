@@ -11,7 +11,14 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'cash': "url('/cash.png')",
       },
+      fontSize: {
+        '2xs': "0.5rem"
+      },
+      lineHeight: {
+        '2xs': '0.75rem',
+      }
     },
   },
   plugins: [],
