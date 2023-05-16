@@ -9,6 +9,7 @@ import SystemUpdateAltOutlinedIcon from '@mui/icons-material/SystemUpdateAltOutl
 import CurrencyExchangeOutlinedIcon from '@mui/icons-material/CurrencyExchangeOutlined';
 import { Dialog, Transition } from '@headlessui/react';
 import Link from 'next/link';
+import CreditCard from '@/components/CreditCard';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -113,19 +114,19 @@ export default function Home() {
 									</div>
 									<div className="overflow-y-auto max-h-96 mt-12">
 										{/*content here */}
-										<div className="mx-auto px-10 py-4">
+										<div className="mx-auto px-4 py-4">
 											<Link href="/wallet/fund">
-												<Card />
+												<CreditCard />
 											</Link>
 										</div>
-										<div className="mx-auto px-10 py-4">
+										<div className="mx-auto px-4 py-4">
 											<Link href="/">
-												<Card />
+												<CreditCard />
 											</Link>
 										</div>
-										<div className="mx-auto px-10 py-4">
+										<div className="mx-auto px-4 py-4">
 											<Link href="/">
-												<Card />
+												<CreditCard />
 											</Link>
 										</div>
 									</div>

@@ -12,6 +12,8 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'cash': "url('/cash.png')",
+        'credit': "url('/credit.png')",
+        'mastercard': "url('/mastercard.png')",
       },
       fontSize: {
         '2xs': "0.5rem"

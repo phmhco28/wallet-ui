@@ -5,6 +5,7 @@ import ArrowBackOutlinedIcon from '@mui/icons-material/ArrowBackOutlined';
 
 import Card from '@/components/Card';
 import ButtonLogin from '@/components/ButtonLogin';
+import CreditCard from '@/components/CreditCard';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -50,12 +51,12 @@ export default function fund() {
 				<div className='flex justify-center'>
 					<input className='content-center bg-none text-center text-2xl outline-none bg-transparent focus:outline-none focus:border-sky-500' name="myInput"  placeholder="Enter Amount"/>
 				</div>
-                <div class="inline-flex items-center justify-center w-full">
-                    <hr class="w-64 h-px my-4 bg-gray-500 border-0"/>
+                <div className="inline-flex items-center justify-center w-full">
+                    <hr className="w-64 h-px my-4 bg-gray-500 border-0"/>
                 </div>
 				<div className="flex justify-center">ADDING FUNDS BY</div>
 				<div className="px-16 py-4 w-fit">
-					<Card />
+					<CreditCard />
 				</div>
 				<div className="flex text-center w-24">
 					<ButtonLogin name="Load" color_500="#EF4444" color_600="#DC2626" color_700="#B91C1C" />
