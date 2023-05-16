@@ -71,9 +71,9 @@ export default function Header() {
 					<a href="#" className="text-sm font-semibold leading-6 text-white">
 						MARKETPLACE
 					</a>
-					<a href="#" className="text-sm font-semibold leading-6 text-white">
+					<Link href="/" className="text-sm font-semibold leading-6 text-white">
 						WALLET
-					</a>
+					</Link>
 					<a href="#" className="text-sm font-semibold leading-6 text-white">
 						MESSAGES
 					</a>

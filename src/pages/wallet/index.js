@@ -30,14 +30,14 @@ export default function Home() {
 					<div className="px-4">
 						{/* back */}
 						<div>
-							<button
+							<Link
+                                href="/"
 								type="button "
 								className="float-left text-gray-700"
-								// onClick={() => setMobileMenuOpen(true)}
 							>
 								<span className="sr-only">Open main menu</span>
 								<ArrowBackOutlinedIcon aria-hidden="true" />
-							</button>
+							</Link>
 							<h5 className="px-8 text-lg w-full">PAYING WITH CARD</h5>
 						</div>
 						{/* card & button */}
@@ -64,6 +64,15 @@ export default function Home() {
 						</div>
 					</div>
 
+					{/* QR */}
+					<div className="text-center">
+						<div className="py-8 px-12">
+							<div className="w-48 h-48 border-2 border-black bg-none"></div>
+							<h5 className="py-2">
+								Present QR Code to <strong>Pay</strong>
+							</h5>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -104,21 +113,21 @@ export default function Home() {
 									</div>
 									<div className="overflow-y-auto max-h-96 mt-12">
 										{/*content here */}
-										<div className='mx-auto px-10 py-4'>
-                      <Link href="/about">
-                        <Card />
-                      </Link>
-                    </div>
-										<div className='mx-auto px-10 py-4'>
-                      <Link href="/">
-                        <Card />
-                      </Link>
-                    </div>
-										<div className='mx-auto px-10 py-4'>
-                      <Link href="/">
-                        <Card />
-                      </Link>
-                    </div>
+										<div className="mx-auto px-10 py-4">
+											<Link href="/wallet/fund">
+												<Card />
+											</Link>
+										</div>
+										<div className="mx-auto px-10 py-4">
+											<Link href="/">
+												<Card />
+											</Link>
+										</div>
+										<div className="mx-auto px-10 py-4">
+											<Link href="/">
+												<Card />
+											</Link>
+										</div>
 									</div>
 								</Dialog.Panel>
 							</Transition.Child>
