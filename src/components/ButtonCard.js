@@ -1,12 +1,11 @@
 import React from 'react'
 import Button, { buttonClasses } from '@mui/material/Button';
 import { styled } from '@mui/system';
-import SystemUpdateAltOutlinedIcon from '@mui/icons-material/SystemUpdateAltOutlined';
 
 export default function ButtonCard(props) {
   return (
     <CustomButton
-      startIcon={props.icon} style={{'backgroundColor': '#6f42c1'}}>
+      startIcon={props.icon} style={{'backgroundColor': '#6f42c1'}} onClick={props.func}>
         {props.name}
     </CustomButton>
   )

@@ -18,7 +18,10 @@ module.exports = {
       },
       lineHeight: {
         '2xs': '0.75rem',
-      }
+      },
+      maxHeight: {
+        '99': '32rem',
+      },
     },
   },
   plugins: [],

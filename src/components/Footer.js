@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function Footer() {
 	return (
-		<footer className="bg-gradient-to-r from-purple-800 to-pink-600 text-white">
-			<div className="grid grid-cols-3 p-6 lg:px-8">
-				<div className="mx-auto flex max-w-7xl">
+		<footer className="container bg-gradient-to-r from-purple-800 to-pink-600 text-white">
+			<div className="mx-auto flex flex-row max-w-7xl items-center justify-between p-6 lg:px-8">
+				<div className="flex max-w-7xl">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">eWallet</span>
 						<img
@@ -15,9 +15,9 @@ export default function Footer() {
 						/>
 					</Link>
 				</div>
-				<div className="flex flex-col col-span-2 pb-2">
-					<div className="pl-10">
-						<ul className="flex flex-row justify-around  mb-0 list-none">
+				<div className="flex flex-col pb-2">
+					<div className="pl-10 flex">
+						<ul className="flex flex-row mb-0 list-none space-x-6">
 							<li>
 								<a href="#">Home</a>
 							</li>
@@ -35,7 +35,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className="flex justify-end">Copyright © 2020 -</div>
+					<div className="text-right">Copyright © 2020 -</div>
 				</div>
 			</div>
 		</footer>

@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Card() {
 	return (
-		<div className="bg-cash bg-cover bg-no-repeat bg-center h-full w-full p-3 rounded-lg text-white text-base">
+		<div className="bg-cash bg-cover bg-no-repeat bg-center h-full w-full p-4 rounded-xl text-white text-base">
 			<div>Cash card</div>
-			<div className="text-3xl w-full pt-8 pb-10 px-12 text-center">BSD 339.96</div>
+			<div className="text-4xl w-full pt-8 pb-10 px-10 text-center">BSD 339.96</div>
 			<div>
 				<div className="flex justify-between">
 					<div className='float-left self-end'>Phmhco</div>
