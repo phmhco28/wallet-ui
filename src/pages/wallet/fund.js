@@ -58,8 +58,8 @@ export default function fund() {
 				<div className="px-16 py-4 w-fit">
 					<CreditCard />
 				</div>
-				<div className="flex text-center w-24">
-					<ButtonLogin name="Load" color_500="#EF4444" color_600="#DC2626" color_700="#B91C1C" />
+				<div className="flex self-center w-52 py-4">
+					<ButtonLogin name="Load" color_500="#3B82F6" color_600="#2563EB" color_700="#1D4ED8" />
 				</div>
 			</div>
 		</main>

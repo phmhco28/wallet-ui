@@ -77,9 +77,9 @@ export default function Header() {
 					<a href="#" className="text-sm font-semibold leading-6 text-white">
 						MESSAGES
 					</a>
-					<a href="#" className="text-sm font-semibold leading-6 text-white">
+					<Link href="transaction" className="text-sm font-semibold leading-6 text-white">
 						TRANSACTIONS
-					</a>
+					</Link>
 					<a href="#" className="text-sm font-semibold leading-6 text-white">
 						ORDERS
 					</a>
